@@ -1,0 +1,75 @@
+<!-- TEST -->
+<!DOCTPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>GABRIEL - Desenvolvedor</title>
+</head>
+<body>
+<div class="container-fluid">
+<div id="headline" class="text-center">
+    <h1>Gabriel</h1>
+    <h2>Desenvolvedor Web</h2>
+    <nav>
+        <a href="#lists">Habilidades</a> 
+        <a href="#lists">Serviços</a>
+        <a href="#contrate">Me contrate</a>
+    </nav>
+</div>
+
+<div id="main">
+    <p>Atualmente estou estudando desenvolvimento web através do currículo do <a href="https://www.freecodecamp.com">FreeCodeCamp</a>. Esta é uma organização sem fins lucrativos que promove a qualificação de pessoas para atuar na área de desenvolvimento web e que no final do seu currículo dá ao aluno a oportunidade de desenvolver projetos open source no mundo real para outras organizações sem fins lucrativos.</p>
+    
+    <div id="lists">
+        <div id="habilidades" class="well">
+            <h3 class="subheadings">Habilidades:</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5">HTML5</a></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3">CSS3</a></li>
+                <li><a href="http://getbootstrap.com.br/">Bootstrap</a></li>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a></li>
+                <li><a href="https://jquery.com/">jQuery</a></li>          
+                <li><a href="https://secure.php.net/">PHP</a></li>                
+            </ul>
+        </div>
+
+        <div id="servicos" class="well">
+            <h3 class="subheadings">Serviços:</h3>
+            <ol>
+                <li>Aplicativo móvel</li>
+                <li>Aplicativo web</li>
+            </ol>
+        </div>
+    </div><!-- lists -->    
+</div><!-- main -->
+
+<form>
+   <fieldset>
+   <legend><h3 class="subheadings" id="contrate">Me contrate</h3></legend>
+        <div class="form-sec">
+            <label><input type="radio" name="service" value="freelance" checked> freelance</label>
+            <label><input type="radio" name="service" value="contract"> contrato</label>
+            
+            <label><input type="checkbox" name="requirements" value="website" checked> Aplicativo móvel</label>
+            <label><input type="checkbox" name="requirements" value="webapp" checked> Aplicativo web</label>
+        </div>
+        <div class="form-sec">
+            <input type="text" placeholder="Digite seu e-mail" class="form-control" required>
+            <button type="submit" class="btn btn-block"><i class="fa fa-check"></i> Contratar</button>
+        </div>
+    </fieldset>
+</form>
+
+<div id="footer">
+    <a href="#headline"><i id="gotop" class="fa fa-angle-double-up fa-5x"></i></a>
+    <p>Veja meu portfólio aqui no <a href="https://github.com/GabrielusR">GitHub</a>. 
+    Também dê uma olhada no meu Twitter: <a href="https://www.twitter.com/ramosgabrielus">@ramosgabrielus</a></p>
+    <small>2016 - Desenvolvido com &hearts; por G.R. da Silva</small>
+</div>
+</div>
+</body>
+</html>

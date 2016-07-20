@@ -1,0 +1,193 @@
+/* Text Bootstrap
+    ----
+    text-danger, text-primary, etc.
+    text-center, text-right, etc.
+   Image Bootstrap
+    ----
+    img-responsive
+   Button Bootstrap
+    ----
+    btn, btn-default,btn-success, btn-block.
+    Grid Bootstrp
+    ----
+    col-xs-offset-*, col-sm-*, col-row, container-fluid, container.
+    Font-Awesome
+    ----
+    fa, fa-check,etc.
+    Sections Bootstrap
+    ----
+    well, jumbotron.
+    Forms Bootstrap
+    ----
+    form-control
+
+    IDs and classes are used just as a way of styling as a way of selection by programming langs like javascript,vanilla or jquery.
+*/
+
+body {
+    background: #eee url("bg.jpg") no-repeat;
+    background-size: cover;
+    color: #222;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: darkcyan;
+}
+
+a:hover {
+    color: #8C470D;
+}
+
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#headline {
+    background-color: #fff;
+    padding: 5px 0 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+#headline h1,
+#headline h2 {
+    display: inline-block;
+    color: darkcyan;
+}
+
+#headline h1 {
+    font-size: 3em;
+}
+
+#headline h2 {
+    font-size: 1.5em;
+}
+
+#headline nav {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+#headline nav a {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 10px;
+    border-left: 1px solid #8C470D;
+}
+
+h1, 
+h2,
+h3 {
+    font-family: Exo, sans-serif;
+    text-transform: uppercase;
+}
+
+#habilidades li:nth-child(1) {
+    list-style-image: url("html5.png");
+}
+#habilidades li:nth-child(2) {
+    list-style-image: url("css3.png");
+}
+#habilidades li:nth-child(3) {
+    list-style-image: url(bootstrap.png);
+}
+#habilidades li:nth-child(4) {
+    list-style-image: url("js3.png");
+}
+#habilidades li:nth-child(5) {
+    list-style-image: url("jquery.png");
+}
+#habilidades li:nth-child(6) {
+    list-style-image: url("php.png");
+}
+
+#lists {
+    padding: 50px 250px;
+}
+
+#habilidades,
+#servicos {
+    width: 45%;
+    display: inline-block;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+.subheadings {
+    color: #8C470D;
+}
+
+#main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+legend {
+    margin: 0;
+    border: 0;
+}
+
+button[type="text"] {
+    padding: 4px 10px;
+}
+
+
+button[type="submit"] {
+    background-color: darkcyan;
+    outline: none;
+    padding: 4px 10px;
+    border-bottom: 3px solid #007676;
+    border-radius: 5px;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    border-bottom: 3px solid darkcyan;
+    background-color: #007676;
+    color: #fff;
+}
+
+button[type="submit"]:active {
+    position: relative;
+    top: 2px;
+}
+
+.form-sec {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#footer {
+    position: relative;
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#gotop {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
