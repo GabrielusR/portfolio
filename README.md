@@ -2,4 +2,4 @@
 
 ---
 
-Um website de portfolio desenvolvimento em HTML5, CSS3, Bootstrap.
+Um website de portfólio desenvolvido em HTML5, CSS3, Bootstrap.
